@@ -1,0 +1,9 @@
+server:
+  port: 7057
+
+spring:
+  application:
+    name: demo-server
+
+guest:
+  name: David

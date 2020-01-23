@@ -1,0 +1,12 @@
+server:
+  port: 6042
+
+spring:
+  application:
+    name: ribbon-demo-client
+
+demo-server:
+  ribbon:
+    eureka:
+      disabled: true
+    listOfServers: localhost:7055, localhost:7056, localhost:7057
